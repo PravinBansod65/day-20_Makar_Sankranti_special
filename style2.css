@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  
+}
+
+body{
+    background: url(./images/bgnight2.gif);
+    background-size:cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    height: 100vh;
+    color:white;
+}
+
+.container{
+    font-family: poppins ,sans-serif;
+    text-align: center;
+    /* padding: 100px; */
+}
+
+.container h2{
+    /* transition: all 0.3s ease-in-out ;
+    font-size: 4em; */
+    text-shadow: 4px 4px 2px rgb(255, 0, 230);
+    font-size: 11em;
+    display: inline-block;
+    animation: myName 1s infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+
+
+.content{
+    align-items: center;
+    /* width:30 */
+    
+}
+.content img{
+    transition: all 1s linear;
+    align-items: center;
+    width:20%;
+    margin-top: 7em;
+    
+}
+
+.kit img{
+    width: 25%;
+    transition: all 1s linear;
+    /* height: 50%; */
+    position: relative;
+    animation: myKit 5s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes myKit {
+    from{top:5  vh};
+
+    to{top:20vh};   
+}
+
+@keyframes myName {
+    from{font-size:12em};
+    to{font-size:14em};   
+}
+
+
+@media screen and (max-width:900px) {
+    .kit img{
+     
+        /* height: 50%; */
+        position: relative;
+        animation: myKit 5s infinite;
+        animation-direction: alternate;
+    }
+    .container h2{
+        font-size: 3em;
+    }
+
+    @keyframes myName {
+        from{font-size:2.5em};
+        to{font-size:3em};   
+    }
+
+    .content img{
+        margin-top: 20px;
+        width:300px;
+    }
+
+    .kit img{
+        width: 200px;
+    }
+     
+}
