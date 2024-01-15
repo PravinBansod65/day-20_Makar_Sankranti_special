@@ -9,6 +9,13 @@
   
   
 }
+.clicktxt{
+    color:white;
+    position: absolute;
+    bottom: 100px;
+    left: 40%;
+    font-size: 60px;
+}
 
 body{
     background: url(./images/bgnight2.gif);
@@ -23,6 +30,7 @@ body{
 
 .container{
     font-family: poppins ,sans-serif;
+    
     text-align: center;
     /* padding: 100px; */
 }
@@ -63,9 +71,11 @@ body{
 }
 
 @keyframes myKit {
-    from{top:5  vh};
+
+    from{top:5vh};
 
     to{top:20vh};   
+   
 }
 
 @keyframes myName {
@@ -99,5 +109,13 @@ body{
     .kit img{
         width: 200px;
     }
+    .clicktxt{
+        bottom: 10px;
+        left: 10%;
+        font-size: 15px;
+    }
      
+}
+.kit img:hover{
+transform: scale(1.2);
 }
