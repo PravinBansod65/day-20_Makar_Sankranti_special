@@ -14,7 +14,7 @@
     position: absolute;
     bottom: 100px;
     left: 40%;
-    font-size: 60px;
+    font-size: 15px;
 }
 
 body{
@@ -39,7 +39,7 @@ body{
     /* transition: all 0.3s ease-in-out ;
     font-size: 4em; */
     text-shadow: 4px 4px 2px rgb(255, 0, 230);
-    font-size: 11em;
+    font-size: 3em;
     display: inline-block;
     animation: myName 1s infinite;
     position: relative;
@@ -56,13 +56,13 @@ body{
 .content img{
     transition: all 1s linear;
     align-items: center;
-    width:20%;
-    margin-top: 7em;
+    width:21%;
+    margin-top: 2em;
     
 }
 
 .kit img{
-    width: 25%;
+    width: 26%;
     transition: all 1s linear;
     /* height: 50%; */
     position: relative;
@@ -72,15 +72,15 @@ body{
 
 @keyframes myKit {
 
-    from{top:5vh};
+    from{top:2vh};
 
     to{top:20vh};   
    
 }
 
 @keyframes myName {
-    from{font-size:12em};
-    to{font-size:14em};   
+    from{font-size:3.2em};
+    /* to{font-size:4em};    */
 }
 
 
@@ -117,5 +117,5 @@ body{
      
 }
 .kit img:hover{
-transform: scale(1.2);
+transform: scale(1.1);
 }

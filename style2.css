@@ -20,33 +20,41 @@ body{
 }
 
 .kite img{
-    width: 800px;
+    width: 300px;
 
 }
 .kite-left img{
-    width: 900px;
+    width: 300px;
 
 }
 .kite img{
-    width: 800px;
+    width: 300px;
 
 }
-
+/* wish sidewali */
+.sideleft{
+    position: fixed;
+    width: 300px;
+    height: 220px;
+    bottom:-8px;
+    left:10px;
+    
+}
 .wish{
     position: fixed;
-  
+  top: -6%;
     z-index: 100;
-    left:30%;
+    left:35%;
 
 }
 .wish img{
-    width: 1800px;
-    height: 500px;
+    width: 400px;
+    height: 150px;
 }
 .kite{
     position: absolute;
     bottom: 10vh;
-    left: 40%;
+    left: 50%;
     transform: rotate(45deg);
 
     animation-name: myanim;
@@ -109,13 +117,7 @@ h2{
     font-size: 60px;
 }
 
-.sideleft{
-    position: fixed;
-    width: 1200px;
-    bottom:-130px;
-    left:100px;
-    
-}
+
 
 h1{
   
@@ -131,13 +133,14 @@ h1{
     /* transition: all 0.3s ease-in-out ;
     font-size: 4em; */
     color: white;
-    font-size: 9em;
+    font-size: 2em;
     display: inline-block;
     animation: myName 1s infinite;
     animation-direction: alternate;
     /* background: rgb(187, 0, 255); */
     border:4px solid violet;
-    padding-inline: 100px;
+    padding-inline: 10px;
+    margin: 10px;
     text-shadow: 4px 4px 5px rgb(255, 0, 230);
     padding-left: 1%;
     border-radius: 100px;
