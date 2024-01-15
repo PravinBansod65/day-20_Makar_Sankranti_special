@@ -107,7 +107,8 @@ body{
     }
 
     .kit img{
-        width: 200px;
+        width: 300px;
+        height: 220px;
     }
     .clicktxt{
         bottom: 10px;

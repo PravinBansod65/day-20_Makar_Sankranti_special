@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     transition: all 1s ease-in-out ;
+    overflow: hidden;
 }
 body{
     background-image: url(./images/Sky.gif);
@@ -14,7 +15,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     overflow-y: hidden;
-    height: 100vh;
+    height: 98vh;
     
     
 }
@@ -172,8 +173,10 @@ h1:hover{
     .sideleft{
         position: fixed;
         width: 120px;
-        bottom:0;
-        left:10px;
+        height: 140px;
+        bottom: 35px;
+        /* bottom:0; */
+        /* left:10px; */
         
     }
     .kite-left img{
