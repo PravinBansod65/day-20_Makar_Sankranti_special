@@ -113,7 +113,10 @@ body{
     .clicktxt{
         bottom: 10px;
         left: 10%;
-        font-size: 15px;
+        font-size: 25px;
+    }
+    h1{
+    
     }
      
 }
