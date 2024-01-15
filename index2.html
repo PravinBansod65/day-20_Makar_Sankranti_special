@@ -26,9 +26,8 @@
         <img src="./images/balloon.png" alt="balloon" width="4%"> 
     </marquee>
   </marquee> -->
-  <h1 id="name">-SilenT Coder</h1>
-    <div class="kite-left">
-        <a href="index.html"><img src="./images/kite5.png" alt="kite"></a>
+  <div class="kite-left">
+      <a href="index.html"><img src="./images/kite5.png" alt="kite"></a>
     </div>
     <div class="kite">
         <a href="index.html"><img src="./images/kite3.png" alt="kite"></a>
@@ -40,8 +39,23 @@
 <h2 class="clicktxt" style="font-size: 22px;">   
     <marquee behavior="" direction="down"    Scrollamount=2>
         click on kite</marquee>
-</h2>
+    </h2>
     <img src="./images/sidemakar.png" alt="" class="sideleft">
+    <h1 id="name" class="abc">SilenT Coder</h1>
+
+    <script>
+        // Wait for the DOM to be fully loaded
+        document.addEventListener("DOMContentLoaded", function() {
+            // Set a timeout to hide the content after 3 seconds
+            setTimeout(function() {
+                // Get the element by its ID
+                let contentElement = document.getElementsByClassName("abc")[0];
+                
+                // Change the CSS style to hide the content
+                contentElement.style.visibility = "hidden";
+            }, 2000); // 3000 milliseconds = 3 seconds
+        });
+    </script>
 </body>
 
 </html>

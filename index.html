@@ -22,7 +22,9 @@
 
 <body>
     <div class="container">
-        <h2 id="name" class="abc" >SilenT CodEr</h2>
+        <marquee behavior="" direction="right" Scrollamount=43>
+            <h2 id="name" class="abc">SilenT CodEr</h2>
+        </marquee>
         <div class="bg">
             <div class="content">
                 <a href="./index2.html"> <img src="./images/wishes.png" alt="happy makar Sankranti"></a>
@@ -32,22 +34,22 @@
             </div>
         </div>
     </div>
-    <h1 class="clicktxt">   
-        <marquee behavior="" direction="down"    Scrollamount=3>
+    <h1 class="clicktxt">
+        <marquee behavior="" direction="down" Scrollamount=3>
             click on kite</marquee>
     </h1>
     <!-- javascript -->
     <script>
         // Wait for the DOM to be fully loaded
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             // Set a timeout to hide the content after 3 seconds
-            setTimeout(function() {
+            setTimeout(function () {
                 // Get the element by its ID
-                let contentElement = document.getElementsByClassName("abc");
-                
+                let contentElement = document.getElementsByClassName("abc")[0];
+
                 // Change the CSS style to hide the content
-                contentElement.innerHTML = "";
-            }, 300); // 3000 milliseconds = 3 seconds
+                contentElement.style.visibility = "hidden";
+            }, 2000); // 3000 milliseconds = 3 seconds
         });
     </script>
 
